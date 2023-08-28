@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Ppaper Scissors game </title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -12,8 +13,8 @@
     </header>
 
     <div class="score-board">
-        <div id="user-label"class="bagde">User</div>
-        <div id="cpu-label" class="bagde">CPU</div>
+        <div id="user-label"class="badge">User</div>
+        <div id="cpu-label" class="badge">CPU</div>
         <span id="user-score">0</span>:<span id="cpu-score">0</span>
     </div>
 
@@ -23,16 +24,16 @@
 
     <div class="choices">
         <div class="choice" id='r'>
-            <img src="imgs/rock.png" alt="" srcset="">
+            <img src="imgs/rock.png" alt="" srcset="" height = '200' width = '200'>
         </div>
         <div class="choice" id ='p'>
-            <img src="imgs/paper.png" alt="" srcset="">
+            <img src="imgs/paper.png" alt="" srcset="" height = '200' width = '200'>
         </div>
         <div class="choice" id = 's'>
-            <img src="imgs/scissors.png" alt="" srcset="">
+            <img src="imgs/scissors.png" alt="" srcset=""height = '200' width = '200'>
         </div>
     </div>
     
-    <p class="action-message">Make your Move</p>
+    <p id="action-message">Make your Move</p>
 </body>
 </html>
